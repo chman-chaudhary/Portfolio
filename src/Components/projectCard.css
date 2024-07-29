@@ -1,0 +1,33 @@
+.card-1 {
+    background: linear-gradient(to right bottom, rgb(232, 211, 142), rgb(227, 171, 180));
+}
+
+.card-2 {
+    background: linear-gradient(to right bottom, rgb(185, 121, 220), rgb(118, 161, 217));
+}
+
+.card-3 {
+    background: linear-gradient(to right bottom, rgb(134, 129, 206), rgb(227, 171, 180));
+}
+
+.card-4 {
+    background: linear-gradient(to right bottom, rgb(166, 226, 166), rgb(231, 231, 162));
+}
+
+.card-5 {
+    background: linear-gradient(to right bottom, rgb(193, 157, 239), rgb(98, 35, 130));
+}
+
+.card-6 {
+    background: linear-gradient(to right, rgb(193, 130, 208), rgb(79, 123, 159));
+}
+
+.card:hover {
+    color: white;
+    border: 1px solid rgb(145, 145, 198);
+    background: black;
+}
+
+.card:hover .bg {
+    color: white;
+}

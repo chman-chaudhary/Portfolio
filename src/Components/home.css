@@ -1,0 +1,111 @@
+.line1 {
+    height: 9px;
+    opacity: 0;
+    animation: appear linear 0.5s forwards;
+}
+
+.line2 {
+    height: 9px;
+    opacity: 0;
+    animation: appear 0.5s linear 0.5s forwards;
+}
+
+.line3 {
+    height: 9px;
+    opacity: 0;
+    animation: appear 0.5s linear 1s forwards;
+}
+
+.line4 {
+    height: 9px;
+    opacity: 0;
+    animation: appear 0.5s linear 1.5s forwards;
+}
+
+.name {
+    opacity: 0;
+    animation: appear 1s linear 0.5s forwards;
+}
+
+.xl-4 {
+    background: linear-gradient(to right, rgb(105, 50, 151), rgb(201, 126, 242), rgb(169, 7, 234));
+    width: 260px;
+}
+
+.xl-3 {
+    background: linear-gradient(to right, rgb(155, 29, 169), rgb(200, 99, 211), rgb(155, 9, 177));
+    width: 200px;
+}
+
+.xl-2 {
+    background: linear-gradient(to right, rgb(81, 81, 208), rgb(77, 180, 220));
+    width: 150px;
+}
+
+.lg {
+    background: linear-gradient(to right, rgb(243, 243, 41), rgb(219, 169, 76), rgb(212, 91, 91));
+    width: 130px;
+}
+
+.md {
+    background: linear-gradient(to right, rgb(124, 218, 124), rgb(219, 219, 108));
+    width: 90px;
+}
+
+.sm {
+    background: linear-gradient(to right, rgb(100, 72, 213), rgb(200, 213, 54));
+    width: 80px;
+}
+
+.xsc {
+    background-color: rgb(203, 61, 203);
+    width: 10px;
+    border-radius: 50%;
+}
+
+.xss {
+    background-color: skyblue;
+    width: 10px;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+        visibility: visible;
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@media (max-width: 500px){
+    .xl-4 {
+        width: 200px;
+    }
+    
+    .xl-3 {
+        width: 170px;
+    }
+    
+    .xl-2 {
+        width: 130px;
+    }
+    
+    .lg {
+        width: 100px;
+    }
+    
+    .md {
+        width: 70px;
+    }
+    
+    .sm {
+        width: 50px;
+    }
+}
+
+.cv:hover i {
+    color: white;
+}

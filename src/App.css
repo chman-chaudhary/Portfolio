@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    font-family: "Quicksand", sans-serif;
+    color: rgb(170, 170, 170);
+    box-sizing: border-box;
+}
+
+.navbar-links:hover {
+    background-color: rgba(174,174,174,0.2);
+}
+
+.imp {
+    color: white;
+}
+
+.heading {
+    color: rgb(61, 122, 243);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.mail:hover .mails{
+    color: white;
+}

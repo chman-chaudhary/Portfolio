@@ -27,6 +27,11 @@ export default function Contact() {
             icon: "fa-brands fa-x-twitter text-xl imp",
             link: "https://twitter.com/chman_chaudhary"
         },
+        {
+            name: "Mail",
+            icon: "fa-solid fa-envelope text-xl imp",
+            link: "https://twitter.com/chman_chaudhary"
+        },
     ]
 
     return (
@@ -50,7 +55,7 @@ export default function Contact() {
                 <h3 className='text-2xl font-semibold pt-2 imp' >Look Who's Here</h3>
                 <p className='leading-7 text-md text-justify' >The fastest to get in touch with me is to send me a message on <a href='https://www.linkedin.com/in/chman-chaudhary/' target='_blank' className='text-blue-400'>LinkedIn</a> or a DM on <a href='https://twitter.com/chman_chaudhary' target='_blank' className='text-blue-400'>Twitter</a>.</p >
                 <p className='leading-7 text-md text-justify' >Whether you have a question or just want to say "Hi", I'll try my best to get back to you.</p >
-                <div onClick={openGmailCompose} className=' mt-4 border-[1px] border-gray-600 hover:border-gray-400 border-b-2 border-b-blue-400 hover:border-b-blue-400 h-12 w-full md:[32%] lg:w-[32%] flex justify-center items-center gap-2 text-xl hover:text-white mail'><i className="fa-solid fa-envelope text-2xl mails"></i>Mail</div>
+                {/* <div onClick={openGmailCompose} className=' mt-4 border-[1px] border-gray-600 hover:border-gray-400 border-b-2 border-b-blue-400 hover:border-b-blue-400 h-12 w-full md:[32%] lg:w-[32%] flex justify-center items-center gap-2 text-xl hover:text-white mail'><i className="fa-solid fa-envelope text-2xl mails"></i>Mail</div> */}
             </div >
 
             <div className='my-24'>

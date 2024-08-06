@@ -17,29 +17,29 @@ export default function Projects() {
             card: "card-2",
         },
         {
+            name: "Portfolio",
+            skills: ["React", "Tailwind", "JavaScript"],
+            github: "https://github.com/chman-chaudhary/Portfolio",
+            card: "card-3",
+        },
+        {
             name: "Currency Converter",
             skills: ["Html", "Css", "JavaScript"],
             github: "https://github.com/chman-chaudhary/Currency-Converter",
-            card: "card-3",
+            card: "card-4",
         },
         {
             name: "Snake Game",
             skills: ["Html", "Css", "JavaScript"],
             github: "https://github.com/chman-chaudhary/Snake-Game",
-            card: "card-4",
+            card: "card-5",
         },
         {
             name: "Weather App",
             skills: ["React", "JavaScript", "Tailwind"],
             github: "https://github.com/chman-chaudhary/WeatherApp",
-            card: "card-5",
-        },
-        {
-            name: "Stone Paper Scissor",
-            skills: ["Html", "Css", "JavaScript"],
-            github: "https://github.com/chman-chaudhary/Stone-Paper-Scissor",
             card: "card-6",
-        },
+        }
     ]
 
     return (

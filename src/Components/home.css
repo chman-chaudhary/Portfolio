@@ -1,23 +1,23 @@
 .line1 {
-    height: 9px;
+    height: 10px;
     opacity: 0;
     animation: appear linear 0.5s forwards;
 }
 
 .line2 {
-    height: 9px;
+    height: 10px;
     opacity: 0;
     animation: appear 0.5s linear 0.5s forwards;
 }
 
 .line3 {
-    height: 9px;
+    height: 10px;
     opacity: 0;
     animation: appear 0.5s linear 1s forwards;
 }
 
 .line4 {
-    height: 9px;
+    height: 10px;
     opacity: 0;
     animation: appear 0.5s linear 1.5s forwards;
 }
@@ -29,32 +29,38 @@
 
 .xl-4 {
     background: linear-gradient(to right, rgb(105, 50, 151), rgb(201, 126, 242), rgb(169, 7, 234));
-    width: 260px;
+    width: 340px;
+    border-radius: 3px;
 }
 
 .xl-3 {
     background: linear-gradient(to right, rgb(155, 29, 169), rgb(200, 99, 211), rgb(155, 9, 177));
-    width: 200px;
+    width: 260px;
+    border-radius: 3px;
 }
 
 .xl-2 {
     background: linear-gradient(to right, rgb(81, 81, 208), rgb(77, 180, 220));
-    width: 150px;
+    width: 200px;
+    border-radius: 3px;
 }
 
 .lg {
     background: linear-gradient(to right, rgb(243, 243, 41), rgb(219, 169, 76), rgb(212, 91, 91));
-    width: 130px;
+    width: 170px;
+    border-radius: 3px;
 }
 
 .md {
     background: linear-gradient(to right, rgb(124, 218, 124), rgb(219, 219, 108));
-    width: 90px;
+    width: 130px;
+    border-radius: 3px;
 }
 
 .sm {
     background: linear-gradient(to right, rgb(100, 72, 213), rgb(200, 213, 54));
-    width: 80px;
+    width: 100px;
+    border-radius: 3px;
 }
 
 .xsc {
@@ -103,6 +109,32 @@
     
     .sm {
         width: 50px;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 700px){
+    .xl-4 {
+        width: 250px;
+    }
+    
+    .xl-3 {
+        width: 200px;
+    }
+    
+    .xl-2 {
+        width: 170px;
+    }
+    
+    .lg {
+        width: 130px;
+    }
+    
+    .md {
+        width: 100px;
+    }
+    
+    .sm {
+        width: 80px;
     }
 }
 

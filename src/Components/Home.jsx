@@ -28,7 +28,7 @@ export default function Home() {
                 <div className='sm line3'></div>
                 <div className='xl-2 line4'></div>
             </div>
-            <div className='px-5 name py-5'>
+            <div className='px-8 name py-5'>
                 <h1 className='text-4xl font-semibold imp'>Chaman Chaudhary</h1>
                 <h3 className='text-2xl font-semibold imp'>Full Stack Developer</h3>
             </div>

@@ -56,7 +56,7 @@ export default function Home() {
                 <div className='xl-2 line3'></div>
                 <div className='sm line4'></div>
             </div>
-            <a href='https://drive.google.com/file/d/1e6gl7O_nKF66htmMyPqF2rk1XZHEMjN6/view?usp=drivesdk' download className='mt-28 border-[1px] border-gray-600 hover:border-gray-400 border-b-2 border-b-blue-400 hover:border-b-blue-400 h-12 w-full md:[32%] lg:w-[32%] flex justify-center items-center gap-2 text-xl hover:text-white cv'><i className="fa-solid fa-download"></i>Download CV</a>
+            <a href='https://drive.google.com/file/d/1fzOEY4aQw5Rjpi_W61Yc6I0SRCQyUK69/view?usp=drivesdk' download className='mt-28 border-[1px] border-gray-600 hover:border-gray-400 border-b-2 border-b-blue-400 hover:border-b-blue-400 h-12 w-full md:[32%] lg:w-[32%] flex justify-center items-center gap-2 text-xl hover:text-white cv'><i className="fa-solid fa-download"></i>Download CV</a>
         </div>
     )
 }

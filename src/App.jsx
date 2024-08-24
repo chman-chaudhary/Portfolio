@@ -9,14 +9,16 @@ import Skills from './Components/Skills'
 function App() {
 
   return (
-    <>
-      <Navbar />
-      <Home />
-      <About />
-      <Projects />
-      <Skills />
-      <Contact />
-    </>
+    <div className='flex justify-center'>
+      <div className='max-w-[2400px]'>
+        <Navbar />
+        <Home />
+        <About />
+        <Projects />
+        <Skills />
+        <Contact />
+      </div>
+    </div>
   )
 }
 

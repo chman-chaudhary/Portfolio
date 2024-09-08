@@ -5,10 +5,10 @@ export default function Projects() {
 
     const projects = [
         {
-            name: "Job Portal",
-            skills: ["React", "Node JS", "Express", "Mongodb"],
-            github: "https://github.com/chman-chaudhary/Job-Portal",
-            website: "https://github.com/chman-chaudhary/Job-Portal",
+            name: "JavaScript to Python",
+            skills: ["AI", "Next.js", "Shadcn Ui"],
+            github: "https://github.com/chman-chaudhary/JavaScript-to-Python",
+            website: "https://javascript-to-python.vercel.app",
             card: "card-1",
         },
         {

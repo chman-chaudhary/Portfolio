@@ -5,10 +5,9 @@ export default function Projects() {
 
     const projects = [
         {
-            name: "JavaScript to Python",
-            skills: ["AI", "Next.js", "Shadcn Ui"],
-            github: "https://github.com/chman-chaudhary/JavaScript-to-Python",
-            website: "https://javascript-to-python.vercel.app",
+            name: "Job Portal Application",
+            skills: ["MERN", "Tailwind", "UI/UX"],
+            github: "https://github.com/chman-chaudhary/Job-Portal",
             card: "card-1",
         },
         {
@@ -19,33 +18,32 @@ export default function Projects() {
             card: "card-2",
         },
         {
+            name: "JavaScript to Python",
+            skills: ["AI", "Next.js", "Shadcn Ui"],
+            github: "https://github.com/chman-chaudhary/JavaScript-to-Python",
+            website: "https://javascript-to-python.vercel.app",
+            card: "card-3",
+        },
+        {
             name: "Portfolio",
             skills: ["React", "Tailwind", "JavaScript"],
             github: "https://github.com/chman-chaudhary/Portfolio",
             website: "https://portfolio-chaman-chaudhary.vercel.app/",
-            card: "card-3",
+            card: "card-4",
         },
         {
             name: "Weather App",
             skills: ["React", "JavaScript", "Tailwind"],
             github: "https://github.com/chman-chaudhary/WeatherApp",
             website: "https://weather-app-ashy-beta.vercel.app/",
-            card: "card-4",
+            card: "card-5",
         },
         {
             name: "Currency Converter",
             skills: ["Html", "Css", "JavaScript"],
             github: "https://github.com/chman-chaudhary/Currency-Converter",
-            website: "https://github.com/chman-chaudhary/Currency-Converter",
-            card: "card-5",
-        },
-        {
-            name: "Snake Game",
-            skills: ["Html", "Css", "JavaScript"],
-            github: "https://github.com/chman-chaudhary/Snake-Game",
-            website: "https://github.com/chman-chaudhary/Snake-Game",
             card: "card-6",
-        }
+        },
     ]
 
     return (

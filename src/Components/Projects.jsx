@@ -18,10 +18,10 @@ export default function Projects() {
             card: "card-2",
         },
         {
-            name: "JavaScript to Python",
+            name: "Code Converter",
             skills: ["AI", "Next.js", "Shadcn Ui"],
             github: "https://github.com/chman-chaudhary/JavaScript-to-Python",
-            website: "https://javascript-to-python.vercel.app",
+            website: "https://convertyourcode.vercel.app",
             card: "card-3",
         },
         {

@@ -75,7 +75,7 @@ export default function Home() {
                     <div className='xl-2 line3'></div>
                     <div className='sm line4'></div>
                 </div>
-                <a href='https://drive.google.com/file/d/1lVJIEL1yTb9HRCwGQmiu7tzWoT5IFqg0/view?usp=sharing' target='_blank' download className='mt-28 border-[1px] border-gray-600 hover:border-gray-400 border-b-2 border-b-blue-400 hover:border-b-blue-400 h-12 w-full md:[64%] lg:w-[64%] flex justify-center text-xl items-center gap-2 imp cv'><i class="fa-solid fa-download"></i>Resume</a>
+                <a href='https://drive.google.com/file/d/1ajEE1ep0PjQ8wOX246-15BKrT0IIhjWs/view?usp=sharing' target='_blank' download className='mt-28 border-[1px] border-gray-600 hover:border-gray-400 border-b-2 border-b-blue-400 hover:border-b-blue-400 h-12 w-full md:[64%] lg:w-[64%] flex justify-center text-xl items-center gap-2 imp cv'><i class="fa-solid fa-download"></i>Resume</a>
             </div>
             <div className='lg:flex justify-center items-center hidden'>
                 <img src={ProfilePhoto} className='h-[300px] my-10 lg:my-0 rounded-full' />

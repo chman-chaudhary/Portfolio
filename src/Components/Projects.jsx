@@ -8,6 +8,7 @@ export default function Projects() {
             name: "GLA Codify",
             skills: ["NEXT.js", "TypeScript", "Tailwind", "Shadcn"],
             github: "https://github.com/chman-chaudhary/GLA-Codify-Ts",
+            website: "https://glacodify.vercel.app/",
             card: "card-1",
         },
         {
